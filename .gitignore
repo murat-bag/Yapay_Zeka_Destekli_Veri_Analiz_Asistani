@@ -1,0 +1,43 @@
+# Python önbellek ve derleme dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Sanal ortamlar (Virtual Environments)
+.venv/
+venv/
+env/
+ENV/
+
+# Eğitilmiş model ağırlıkları ve büyük veri setleri (Planındaki not doğrultusunda)
+saved_models/*
+!saved_models/.gitkeep
+training_data/*
+!training_data/.gitkeep
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.h5
+*.pkl
+
+# Log ve geçici çıktı dosyaları
+*.log
+logs/
+
+# Ortam değişkenleri ve gizli anahtarlar (DB şifreleri, API keyler vb.)
+.env
+.env.*
+
+# IDE ve Editör ayarları (VS Code vb.)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# İşletim sistemi dosyaları (Windows)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
